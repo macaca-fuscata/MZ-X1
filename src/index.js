@@ -43,5 +43,5 @@ function update(time) {
     player.update(time);
 
     // Update enemy movement and spawning
-    enemyManager.update(time);
+    enemyManager.update();
 }
